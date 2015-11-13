@@ -345,7 +345,6 @@ public class AddressBookServiceTest {
 				.request().delete();
 		assertEquals(404,response.getStatus());
 
-
 	}
 
 	@Test
